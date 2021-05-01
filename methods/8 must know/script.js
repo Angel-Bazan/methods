@@ -126,4 +126,14 @@ const total = items.reduce((currentTotal, item) => {  // getting the total price
 
 console.log(total) // so how it works is that it starts at 0 and adds to the next one which is 100 so now the currentTotal is 100 and keeps adding and so on ... 
 
-// The last method will be the includes method because this doesn't 
+// The last method will be the includes method because this doesn't take a function it only takes a single argument
+const items = {1, 2, 3,4, 5] 
+
+const includesTwo = items.includes(2)
+               
+console.log(includesTwo) //it will give us true or false depending if the number is inside the array. We see if it has a value without doing a complex find especially when we have such a simple array of just numbers 
+               
+               
+               
+               
+               
