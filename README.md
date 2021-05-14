@@ -400,7 +400,7 @@ let citrus = fruits.slice(1, 3)
 
 ## pop()
 
-### Description of what method does:
+### Description:
 
 pop method removes the last element from an array and returns that removed element.
 
@@ -444,15 +444,25 @@ console.log(newItems)
 The last fish in the array got adopted counsole log a new array 
 
 ```jsx
-var myFish = ['angel', 'clown', 'mandarin', 'sturgeon'];
+const myFish = ['angel', 'clown', 'mandarin', 'sturgeon'];
 
-var popped = myFish.pop();
+const popped = myFish.pop();
 
 console.log(myFish); // ['angel', 'clown', 'mandarin' ]
 
 ```
 
-### Example 3:
+### Example 3: 
+Remove the last item in the array 
+
+```jsx 
+const groceries = ['bread' , 'oranges' , 'tortillas', 'meat',]; 
+
+const popped = groceries.pop(); 
+
+console.log(groceries); // ['bread' , 'oranges' , 'tortillas' ] 
+
+``` 
 
 ## shift()
 
@@ -482,7 +492,7 @@ remove the first number in the list
 
 ```jsx
 // List of numbers
-const list = [10, 20, 30, 40, 50]
+const list = [1, 2, 3, 4, 5]
 
 // Remove first number
 const newList = list.shift()
@@ -490,7 +500,7 @@ const newList = list.shift()
 // Output result
 console.log(newList)
 
-//output: 10
+//output: 1
 ```
 
 ### Example 2:
@@ -499,7 +509,7 @@ remove the index element from an array
 
 ```jsx
 // New array
-const numbers = ['ten', 'one', 'two', 'three', 'four'];
+const avengers = ['ironman', 'hulk', 'spiderman', '', 'four'];
 
 // Remove the first element
 numbers.shift();
@@ -540,13 +550,13 @@ add a new value to the end of the array
 
 ```jsx
 // List of numbers
-const numbers = [1, 2, 3, 4, 5];
+const numbers = [10, 20, 30, 40, 50];
 
 // Add a number to the end
-numbers.push(6);
+numbers.push(60);
 
 // Output result
-console.log(numbers);//[1,2,3,4,5,6]
+console.log(numbers);//[10,20,30,40,50,60]
 ```
 
 ### Example 2:
@@ -565,6 +575,14 @@ console.log(todos)//[{"name":"Clean room","complete":false},{"name":"Cook food",
 ```
 
 ### Example 3:
+
+```jsx 
+const items = ['towel', 'pen' , 'folder', 'water']; 
+
+items.push('laptop')
+
+console.log(items) = ['towel' , 'pen' , 'folder' , 'water' , 'laptop']
+```
 
 ## unshift()
 
@@ -624,6 +642,28 @@ console.log(cart)//[{"item":"eggs","price":500},{"item":"bread","price":2000},{"
 ```
 
 ### Example 3:
+Add new pokemon to the pokedex 
+
+```jsx 
+//Array of pokemon in Pokedex 
+
+const pokedex = [ 
+ { 
+  pokemon: "Pikachu", 
+  level : 30,
+ },
+ {  
+  pokemon: "Squirtle", 
+  level: 21, 
+  }
+ ]
+ 
+ pokedex.unshift({pokemon: "Charmander", level : 5})
+
+// Display modified array
+console.log(pokedex)//[{"pokemon":"Charmander","level":5},{"pokemon":"Pikachu","level":30},{"pokemon":"Squirtle","level":21}]
+ 
+```
 
 ## includes()
 
@@ -650,27 +690,27 @@ array.includes(searchValue, startIndex)
 
 ### Example 1:
 
-Check if the array includes an item with the string ‘waldo’.
+Check if the array includes an item with the string ‘leon’.
 
 ```jsx
-const names = ['sophie', 'george', 'waldo', 'stephen', 'henry'];
+const names = ['sophie', 'george', 'leon', 'stephen', 'henry'];
 const includesWaldo = names.includes('waldo');
 // includesWaldo will be equal to true
 ```
 
 ### Example 2:
 
-Check if the array contains a certain month
+Check if the array contains a certain day
 
 ```jsx
 // Weekdays
 const days = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday'];
 
-// Random month
-const month = 'May';
+// Random day
+const day = 'Monday';
 
 // Verify inclusion in array
-const isDay = days.includes(month);
+const isDay = days.includes(day);
 
 // Output result
 console.log(isDay);
@@ -678,7 +718,7 @@ console.log(isDay);
 
 ### Example 3:
 
-## indexOf()
+## indexOf() 
 
 ### Description:
 
