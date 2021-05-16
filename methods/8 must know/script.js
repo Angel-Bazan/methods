@@ -270,7 +270,7 @@ function grow(x){
       return x.reduce(reducer);
 
 
-/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
 
 //Given an array of Boolean values and a logical operator, return a Boolean result based on sequentially applying the operator to the values in the array.
 const ops = {
