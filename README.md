@@ -590,7 +590,8 @@ console.log(items) = ['towel' , 'pen' , 'folder' , 'water' , 'laptop']
 
 similar to push method, unshift method add one or more elements to the front of an array and returns the updated length of the array.
 
-### How it works:
+### How it works: 
+A new element is added to the array 
 
 ### Syntax:
 
