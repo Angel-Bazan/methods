@@ -3,7 +3,7 @@
 
 # map()
 
-### Description :
+### Description:
 
 applies a function on every element in an array. A new array is then returned
 
