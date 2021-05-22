@@ -864,20 +864,22 @@ console.log(array1.every(isBelowThreshold));
 ## charAt()
 
 ### Description:
-
+method returns a new string consisting of the single UTF-16 code unit located at the specified offset into the string 
 
 ### How it works:
-
+Returns the character at the specified index in a string.
 
 
 ### Syntax:
+string.charAt(index)
+
 
 ```jsx
 
 ```
 
 ### Time Complexity:
-
+ 
 0(n)
 
 ### Example 1:
@@ -887,13 +889,14 @@ console.log(array1.every(isBelowThreshold));
 ## charcodeAt()
 
 ### Description:
-
+Returns the UTF -16 code of the character at the specified index in a string. 
 
 ### How it works:
-
+Returns the decimal number from the UTF-16 code at the specified index in a string.
 
 
 ### Syntax:
+string.charCodeAt(index)
 
 ```jsx
 
@@ -909,14 +912,14 @@ console.log(array1.every(isBelowThreshold));
 ## concat()
 
 ### Description:
-
+The method is used to merge two or more arrays.The method returns a new array
 
 ### How it works:
-
+This method is used to return a new array by combining two given arrays. 
 
 
 ### Syntax:
-
+array1.concat(array2)
 ```jsx
 
 ```
@@ -931,14 +934,14 @@ console.log(array1.every(isBelowThreshold));
 ## includes()
 
 ### Description:
-
+The method includes determines wheter an array includes a certain value amon its entries, returning true or false as appropiate. 
 
 ### How it works:
-
+The method will determine if a certain value is included in the array.If the value is included in the array the method will return true if not it will return false
 
 
 ### Syntax:
-
+array.includes(value)
 ```jsx
 
 ```
@@ -949,16 +952,18 @@ console.log(array1.every(isBelowThreshold));
 
 ### Example 1:
 
+
 ## indexOf()
 
 ### Description:
-
+The method returns the first index at which a given element can be found in the array, or -1 if it is not present
 
 ### How it works:
-
+The method will return the element's index number. if the element is not included in the array than it will return -1
 
 
 ### Syntax:
+indexOf(element) ; || indexOf(element, fromIndex)
 
 ```jsx
 
@@ -973,14 +978,17 @@ console.log(array1.every(isBelowThreshold));
 
 ## match()
 
+
 ### Description:
+The method retrieves the result of matching a string against a regular expression
 
 
 ### How it works:
-
+The method will return the matching array objects from the given array. 
 
 
 ### Syntax:
+string.match(regexp)
 
 ```jsx
 
@@ -995,13 +1003,14 @@ console.log(array1.every(isBelowThreshold));
 ## repeat()
 
 ### Description:
-
+The method constructs and returns a new string which contains the specified number of copies of the string on which it was called, concatenated together.
 
 ### How it works:
-
+The repeat method return a new string with a specified number of copies of the string it was called on. 
 
 
 ### Syntax:
+string.repeat(count)
 
 ```jsx
 
@@ -1016,13 +1025,14 @@ console.log(array1.every(isBelowThreshold));
 ## replace()
 
 ### Description:
-
+The method returns a new string with some or all matches of a pattern replaced by a replacement. 
 
 ### How it works:
-
+The replace method searches a string for a specified value, or a regular expression, and returns a new string where the specified values are replaced 
 
 
 ### Syntax:
+string.replace(searchvalue, newvalue)
 
 ```jsx
 
@@ -1034,16 +1044,37 @@ console.log(array1.every(isBelowThreshold));
 
 ### Example 1:
 
-## slice()
+## search()
 
-### Description:
-
+### Description: 
+The search method executes a search for a match between a regular expression and to the string object 
 
 ### How it works:
+The search method searches a string for a specified value, and returns the posiion of the match 
 
+### Syntax: 
+string.search(searchvalue)
+```jsx
+
+```
+
+### Time Complexity:
+
+0(n)
+
+### Example 1:
+
+## splice()
+
+### Description:
+The splice method changes the contents of an array by removing or replacing existing elements and/or adding new elements in place. 
+
+### How it works:
+The splice method adds/remove items to/from an array, and returns the removed item(s)
 
 
 ### Syntax:
+array.splice(index, howmany, item1, ....., itemX)
 
 ```jsx
 
