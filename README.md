@@ -861,3 +861,305 @@ const array1 = [1, 30, 39, 29, 10, 13];
 console.log(array1.every(isBelowThreshold));
 // expected output: true
 ```
+## charAt()
+
+### Description:
+
+
+### How it works:
+
+
+
+### Syntax:
+
+```jsx
+
+```
+
+### Time Complexity:
+
+0(n)
+
+### Example 1:
+
+
+
+## charcodeAt()
+
+### Description:
+
+
+### How it works:
+
+
+
+### Syntax:
+
+```jsx
+
+```
+
+### Time Complexity:
+
+0(n)
+
+### Example 1:
+
+
+## concat()
+
+### Description:
+
+
+### How it works:
+
+
+
+### Syntax:
+
+```jsx
+
+```
+
+### Time Complexity:
+
+0(n)
+
+### Example 1:
+
+
+## includes()
+
+### Description:
+
+
+### How it works:
+
+
+
+### Syntax:
+
+```jsx
+
+```
+
+### Time Complexity:
+
+0(n)
+
+### Example 1:
+
+## indexOf()
+
+### Description:
+
+
+### How it works:
+
+
+
+### Syntax:
+
+```jsx
+
+```
+
+### Time Complexity:
+
+0(n)
+
+### Example 1:
+
+
+## match()
+
+### Description:
+
+
+### How it works:
+
+
+
+### Syntax:
+
+```jsx
+
+```
+
+### Time Complexity:
+
+0(n)
+
+### Example 1:
+
+## repeat()
+
+### Description:
+
+
+### How it works:
+
+
+
+### Syntax:
+
+```jsx
+
+```
+
+### Time Complexity:
+
+0(n)
+
+### Example 1:
+
+## replace()
+
+### Description:
+
+
+### How it works:
+
+
+
+### Syntax:
+
+```jsx
+
+```
+
+### Time Complexity:
+
+0(n)
+
+### Example 1:
+
+## slice()
+
+### Description:
+
+
+### How it works:
+
+
+
+### Syntax:
+
+```jsx
+
+```
+
+### Time Complexity:
+
+0(n)
+
+### Example 1:
+
+
+## split()
+
+### Description:
+
+
+### How it works:
+
+
+
+### Syntax:
+
+```jsx
+
+```
+
+### Time Complexity:
+
+0(n)
+
+### Example 1:
+
+
+## substr()
+
+### Description:
+
+
+### How it works:
+
+
+
+### Syntax:
+
+```jsx
+
+```
+
+### Time Complexity:
+
+0(n)
+
+### Example 1:
+
+
+## toLowerCase()
+
+### Description:
+
+
+### How it works:
+
+
+
+### Syntax:
+
+```jsx
+
+```
+
+### Time Complexity:
+
+0(n)
+
+### Example 1:
+
+## toUpperCase()
+
+### Description:
+
+
+### How it works:
+
+
+
+### Syntax:
+
+```jsx
+
+```
+
+### Time Complexity:
+
+0(n)
+
+### Example 1:
+
+
+## trim()
+
+### Description:
+
+
+### How it works:
+
+
+
+### Syntax:
+
+```jsx
+
+```
+
+### Time Complexity:
+
+0(n)
+
+### Example 1:
