@@ -871,11 +871,11 @@ Returns the character at the specified index in a string.
 
 
 ### Syntax:
-string.charAt(index)
+
 
 
 ```jsx
-
+string.charAt(index)
 ```
 
 ### Time Complexity:
@@ -884,7 +884,37 @@ string.charAt(index)
 
 ### Example 1:
 
+```jsx
+const sentence = 'The quick brown fox jumps over the lazy dog.';
 
+const index = 4;
+
+console.log(`The character at index ${index} is ${sentence.charAt(index)}`);
+// expected output: "The character at index 4 is q"
+
+```
+
+### Example 2 
+
+```jsx 
+
+
+  const str = "HELLO WORLD";
+  console.log(str.charAt(str.length-1));
+//expected output: D
+
+```
+
+### Example 3 
+
+```jsx 
+const sentence = 'The quick brown fox jumps over the lazy dog.';
+
+
+
+console.log(sentence.charAt(6));
+// expected output: "i"
+```
 
 ## charcodeAt()
 
@@ -896,10 +926,10 @@ Returns the decimal number from the UTF-16 code at the specified index in a stri
 
 
 ### Syntax:
-string.charCodeAt(index)
+
 
 ```jsx
-
+string.charCodeAt(index)
 ```
 
 ### Time Complexity:
@@ -907,7 +937,30 @@ string.charCodeAt(index)
 0(n)
 
 ### Example 1:
+```jsx
+const sentence = 'The quick brown fox jumps over the lazy dog.';
 
+console.log(sentence.charCodeAt('5'));
+// expected output: 117 
+```
+
+### Example 2: 
+```jsx
+const sentence = 'I wonder what will be the lucky number.';
+
+console.log(sentence.charCodeAt('0'));
+// expected output: 73
+```
+
+### Example 3: 
+```jsx 
+const sentence = 'The quick brown fox jumps over the lazy dog.';
+
+const index = 9;
+
+console.log(`The character code ${sentence.charCodeAt(index)} is equal to ${sentence.charAt(index)}`);
+// expected output: "The character code 32 is equal to b"
+```
 
 ## concat()
 
@@ -929,8 +982,34 @@ array1.concat(array2)
 0(n)
 
 ### Example 1:
+```jsx
+const array1 = ['a', 'b', 'c'];
+const array2 = ['d', 'e', 'f'];
+const array3 = array1.concat(array2);
 
+console.log(array3);
+// expected output: Array ["a", "b", "c", "d", "e", "f"]
+```
+### Example 2: 
+```jsx 
+const fruit1 = ['pineapple', 'apple', 'pear'];
+const fruit2 = ['mango', 'grape', 'strawberry'];
+const fruits = fruit1.concat(fruit2);
 
+console.log(fruits)
+//expected output: Array ["pineapple", "apple", "pear", "mango", "grape", "strawberry"]
+
+```
+
+### Example 3: 
+```jsx 
+const team1 = ['Manchester City', 'Manchester United', 'Liverpool'];
+const team2 = ['Chelsea', 'Leicester City', 'West Ham'];
+const standings = team1.concat(team2);
+
+console.log(standings)
+//Expected Output: Array ["Manchester City", "Manchester United", "Liverpool", "Chelsea", "Leicester City", "West Ham"]
+```
 ## includes()
 
 ### Description:
