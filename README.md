@@ -1169,16 +1169,16 @@ array.splice(index, howmany, item1, ....., itemX)
 ## split()
 
 ### Description:
-
+The split() method is used to split a string into an array of substrings, and returns the new array. 
 
 ### How it works:
-
+The split() method divides a string into an ordered list of substrings, puts these substrings into an array, and returns the array. The division is done by searching for a pattern; where the pattern is provided as the first parameter in the method's call.
 
 
 ### Syntax:
 
 ```jsx
-
+string.split(seperator, limit)
 ```
 
 ### Time Complexity:
@@ -1191,16 +1191,16 @@ array.splice(index, howmany, item1, ....., itemX)
 ## substr()
 
 ### Description:
-
+This method returns a portion of the string, starting at the specified index and extending for a given number of characters afterwards 
 
 ### How it works:
-
+The substr method extracts parts of a string, beginning at the character at the specified position, and returns the specified numbers of characters 
 
 
 ### Syntax:
 
 ```jsx
-
+string.substr(start, length)
 ```
 
 ### Time Complexity:
@@ -1213,10 +1213,10 @@ array.splice(index, howmany, item1, ....., itemX)
 ## toLowerCase()
 
 ### Description:
-
+The LowerCase() method converts a string to lowercase letters. 
 
 ### How it works:
-
+Any strings that are passed by the lowercase method they become lowercase 
 
 
 ### Syntax:
@@ -1234,10 +1234,10 @@ array.splice(index, howmany, item1, ....., itemX)
 ## toUpperCase()
 
 ### Description:
-
+The UpperCase method converts a string to uppercase letters 
 
 ### How it works:
-
+Any method that passes through the uppercase method will output uppercase letters 
 
 
 ### Syntax:
@@ -1256,16 +1256,16 @@ array.splice(index, howmany, item1, ....., itemX)
 ## trim()
 
 ### Description:
-
+The trim() method removes whitespace from both sides of a string 
 
 ### How it works:
-
+The method removes the whitespace from both ends of a string
 
 
 ### Syntax:
 
 ```jsx
-
+string.trim()
 ```
 
 ### Time Complexity:
