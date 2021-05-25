@@ -718,6 +718,12 @@ console.log(isDay);
 ```
 
 ### Example 3:
+```jsx 
+const fruits = ["Banana", "Orange", "Apple", "Mango" ]
+console.log(fruits.includes("Banana", 3)
+
+//Expected Output False 
+```
 
 ## indexOf() 
 
