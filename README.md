@@ -1026,9 +1026,9 @@ The method will determine if a certain value is included in the array.If the val
 
 
 ### Syntax:
-array.includes(value)
-```jsx
 
+```jsx
+array.includes(value)  
 ```
 
 ### Time Complexity:
@@ -1048,10 +1048,10 @@ The method will return the element's index number. if the element is not include
 
 
 ### Syntax:
-indexOf(element) ; || indexOf(element, fromIndex)
+
 
 ```jsx
-
+indexOf(element) ; || indexOf(element, fromIndex)
 ```
 
 ### Time Complexity:
@@ -1059,7 +1059,37 @@ indexOf(element) ; || indexOf(element, fromIndex)
 0(n)
 
 ### Example 1:
+```jsx
+const array1 = [1, 2, 3];
 
+console.log(array1.includes(2));
+// expected output: true
+
+const pets = ['cat', 'dog', 'bat'];
+
+console.log(pets.includes('cat'));
+// expected output: true
+
+console.log(pets.includes('at'));
+// expected output: false
+```
+
+### Example 2: 
+```jsx 
+const array1 = ['peach', 'Apple', 'pear'];
+
+console.log(array1.includes('pear'));
+// expected output: true
+```
+
+### Example 3 
+```jsx 
+//provided is a function find which accepts two parameters in the following order: array, element and returns the index of the element if found and "Not found" otherwise. 
+function find(a, e) {
+  return  a.includes(e) ? a.indexOf(e) : "Not found"
+
+}
+```
 
 ## match()
 
