@@ -1103,10 +1103,10 @@ The method will return the matching array objects from the given array.
 
 
 ### Syntax:
-string.match(regexp)
+
 
 ```jsx
-
+string.match(regexp)
 ```
 
 ### Time Complexity:
@@ -1114,7 +1114,33 @@ string.match(regexp)
 0(n)
 
 ### Example 1:
+```jsx 
+const paragraph = 'The quick brown fox jumps over the lazy dog. It barked.';
+const regex = /[A-Z]/g;
+const found = paragraph.match(regex);
 
+console.log(found);
+// expected output: Array ["T", "I"]
+```
+
+### Example 2: 
+```jsx 
+const str = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz';
+const regexp = /[A-E]/gi;
+const matches_array = str.match(regexp);
+
+console.log(matches_array);
+// ['A', 'B', 'C', 'D', 'E', 'a', 'b', 'c', 'd', 'e']
+```
+
+### Example 3: 
+```jsx 
+const paragraph = 'The quick brown fox jumps over the lazy dog. It barked.';
+
+const capturingRegex = /(?<animal>fox|cat) jumps over/;
+const found = paragraph.match(capturingRegex);
+console.log(found.groups); // {animal: "fox"}
+```
 ## repeat()
 
 ### Description:
@@ -1125,10 +1151,10 @@ The repeat method return a new string with a specified number of copies of the s
 
 
 ### Syntax:
-string.repeat(count)
+
 
 ```jsx
-
+string.repeat(count)
 ```
 
 ### Time Complexity:
@@ -1136,6 +1162,18 @@ string.repeat(count)
 0(n)
 
 ### Example 1:
+```jsx 
+const chorus = 'Bad Bunny Baby. ';
+
+console.log(`Como dice: ${chorus.repeat(3)}`);
+
+// expected output: "Como dice: Bad Bunny Baby. Bad Bunny Baby. Bad Bunny Baby. "  
+```
+
+### Example 2:
+```jsx
+
+```
 
 ## replace()
 
