@@ -978,9 +978,9 @@ This method is used to return a new array by combining two given arrays.
 
 
 ### Syntax:
-array1.concat(array2)
-```jsx
 
+```jsx
+array1.concat(array2)
 ```
 
 ### Time Complexity:
@@ -1172,7 +1172,19 @@ console.log(`Como dice: ${chorus.repeat(3)}`);
 
 ### Example 2:
 ```jsx
+const str = "Hello world!";
+str.repeat(2); 
+//expected output: Hello world!, Hello world!
+```
 
+### Example 3: 
+```jsx 
+const chorus = 'Because I\'m happy. ';
+
+console.log(`Chorus lyrics for "Happy": ${chorus.repeat(27)}`);
+
+// expected output: "Chorus lyrics for "Happy": Because I'm happy. Because I'm happy. Because I'm happy. Because I'm happy. Because I'm happy. Because I'm happy. Because I'm happy. Because I'm happy. Because I'm happy. Because I'm happy. Because I'm happy. Because I'm happy. Because I'm happy. Because I'm happy. Because I'm happy. Because I'm happy. Because I'm happy. Because I'm happy. Because I'm happy. Because I'm happy. Because I'm happy. Because I'm happy. Because I'm happy. Because I'm happy. Because I'm happy. Because I'm happy. Because I'm happy. "
+ 
 ```
 
 ## replace()
