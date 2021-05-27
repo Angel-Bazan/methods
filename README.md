@@ -1197,10 +1197,10 @@ The replace method searches a string for a specified value, or a regular express
 
 
 ### Syntax:
-string.replace(searchvalue, newvalue)
+
 
 ```jsx
-
+string.replace(searchvalue, newvalue)
 ```
 
 ### Time Complexity:
@@ -1208,6 +1208,12 @@ string.replace(searchvalue, newvalue)
 0(n)
 
 ### Example 1:
+```jsx 
+const p = 'The quick brown fox jumps over the lazy dog. If the dog reacted, was it really lazy?';
+
+console.log(p.replace('dog', 'monkey'));
+// expected output: "The quick brown fox jumps over the lazy monkey. If the dog reacted, was it really lazy?"
+```
 
 ## search()
 
