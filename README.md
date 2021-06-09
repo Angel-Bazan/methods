@@ -1216,6 +1216,14 @@ console.log(p.replace('dog', 'monkey'));
 // expected output: "The quick brown fox jumps over the lazy monkey. If the dog reacted, was it really lazy?"
 ```
 
+### Example 2:
+```jsx 
+let re = /(\w+)\s(\w+)/;
+let str = 'John Smith';
+let newstr = str.replace(re, '$2, $1');
+console.log(newstr);  // Smith, John
+```
+
 ## search()
 
 ### Description: 
